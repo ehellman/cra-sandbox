@@ -1,0 +1,37 @@
+{
+  "name": "ecom-sandbox",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.1",
+    "immutable": "^3.8.1",
+    "invariant": "^2.2.2",
+    "json-loader": "^0.5.4",
+    "lodash": "^4.17.4",
+    "normalize.css": "^7.0.0",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-helmet": "^5.0.3",
+    "react-redux": "^5.0.4",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "react-router-redux": "5.0.0-alpha.6",
+    "redux": "^3.6.0",
+    "redux-immutable": "^4.0.0",
+    "redux-thunk": "^2.2.0",
+    "styletron": "^2.5.7",
+    "styletron-client": "^2.5.7",
+    "styletron-react": "^2.5.8",
+    "warning": "^3.0.0"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "NODE_PATH=src/ react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
